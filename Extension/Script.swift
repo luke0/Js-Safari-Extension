@@ -10,4 +10,11 @@ import UIKit
 
 class Script: NSObject {
 
+    var Name:String
+    var Script: String
+    
+    init(name: String, script: String){
+        self.Name = name
+        self.Script = script
+    }
 }
